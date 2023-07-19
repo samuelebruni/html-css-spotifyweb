@@ -6,6 +6,135 @@
 
 body{
     font-family: 'Fredoka', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*#region Utilities*/
+
+.col-side{
+    width: 230px;
+}
+
+.col-main{
+    width:calc(100% - 230px)
+}
+
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+
+.col-fix{
+    width: 161.72px;
+    height: 150px;
+    margin: 0 1rem;
+}
+
+.row{
+    display: flex;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.container{
+    height: 100%;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mt-3{
+    margin-top: 3rem;
+}
+
+.mt-4{
+    margin-top: 4rem;
+}
+
+.ml-1{
+    margin-left: 1rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+/*#endregion*/
+
+/*#region Main*/
+
+.upgrade{
+    height: 90px;
+    background-color: #080b12;
+}
+
+/*#endregion*/
+
+/*#region Debug*/
+
+.debug .col-side{
+    background-color: red;
+    height: calc(100vh - 90px);
+}
+
+.debug .col-main{
+    background-color: aqua;
+    overflow: auto;
+    height: calc(100vh - 90px);
+}
+
+.debug .btn-upgrade{
+    height: 20px;
+    background-color: white;
+}
+
+.debug .text{
+    height:20px;
+    background-color: deeppink;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.debug .col-2{
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.debug .card{
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.debug .popular .card{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.debug footer{
+    height: 100px;
+    background-color: #282828;
+    width: 100%;
+    position: sticky;
 }
