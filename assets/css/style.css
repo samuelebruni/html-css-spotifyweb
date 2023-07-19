@@ -28,7 +28,7 @@ body{
 .col-2{
     width: calc(100% / 12 * 2);
     margin-top: 1rem;
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 
 .column{
@@ -63,6 +63,10 @@ body{
     height: 100%;
 }
 
+.container-logo{
+    height: 90px;
+}
+
 .mt-1{
     margin-top: 1rem;
 }
@@ -91,12 +95,25 @@ body{
     gap: 1rem;
 }
 
+.gap{
+    gap: 0.5rem;
+}
+
 .unstyled{
     text-decoration: none;
 }
 
 ul{
     list-style: none;
+    padding: 0. 0;
+}
+
+li:hover{
+    color: white;
+}
+
+.underscore{
+    border-bottom: 2px solid #8aca2c;
 }
 
 .img-fluid img{
@@ -116,7 +133,19 @@ ul{
 
 /*#region Sidebar*/
 
+.text-side{
+    color: #717378;
+    font-weight: bold;
+    font-size: 18px;
+}
 
+.col-side a{
+    padding-left: 1rem;
+}
+
+.col-side a:hover{
+    border-left: 2px solid #8aca2c;
+}
 
 /*#region Main*/
 
