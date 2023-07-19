@@ -47,6 +47,14 @@ body{
     display: flex;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 .align-items-center{
     align-items: center;
 }
@@ -165,6 +173,18 @@ li:hover{
     font-weight: bold;
 }
 
+.btn-upgrade:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+.col-main .absolute{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
 .col-main h2{
     color: white;
 }
@@ -180,6 +200,13 @@ li:hover{
 
 .col-main h3{
     color: white;
+}
+
+.col-main .card:hover{
+    .absolute{
+        display: block;
+    }
+    filter: brightness(80%);
 }
 /*#endregion*/
 
