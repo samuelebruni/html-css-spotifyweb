@@ -113,7 +113,7 @@ body{
 
 ul{
     list-style: none;
-    padding: 0. 0;
+    cursor: pointer;
 }
 
 li:hover{
@@ -144,7 +144,7 @@ li:hover{
 .text-side{
     color: #717378;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .col-side a{
@@ -155,6 +155,30 @@ li:hover{
     border-left: 2px solid #8aca2c;
 }
 
+.col-side h3{
+    color: white;
+    margin-top: 3rem;
+    padding-left: 2rem;
+}
+
+.container-playlist{
+    height: 35px;
+    width: 35px;
+    background-color: #a3a3a3;
+    margin-left: 2rem;
+}
+
+.col-side span{
+    color: #a3a3a3;
+    font-size: 15px;
+
+}
+
+.col-side ul{
+    color: #a3a3a3;
+    margin-left: 2rem;
+}
+
 /*#region Main*/
 
 .upgrade{
@@ -162,6 +186,7 @@ li:hover{
     background-color: #080b12;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .btn-upgrade{
@@ -207,6 +232,7 @@ li:hover{
         display: block;
     }
     filter: brightness(80%);
+    cursor: pointer;
 }
 /*#endregion*/
 
