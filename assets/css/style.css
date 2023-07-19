@@ -14,20 +14,25 @@ body{
 
 .col-side{
     width: 230px;
+    background-color: black;
+    height: calc(100vh - 90px);
 }
 
 .col-main{
-    width:calc(100% - 230px)
+    width:calc(100% - 230px);
+    overflow: auto;
+    height: calc(100vh - 90px);
+    background-color: #141922;
 }
 
 .col-2{
     width: calc(100% / 12 * 2);
+    margin-top: 1rem;
+    padding: 0 0.5rem;
 }
 
-.col-fix{
-    width: 161.72px;
-    height: 150px;
-    margin: 0 0.5rem;
+.column{
+    flex-direction: column;
 }
 
 .wrap{
@@ -82,7 +87,36 @@ body{
     margin-bottom: 1rem;
 }
 
+.gap1{
+    gap: 1rem;
+}
+
+.unstyled{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.img-fluid img{
+    width: 100%;
+}
+
+.img-radius img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text-center{
+    text-align: center;
+}
+
 /*#endregion*/
+
+/*#region Sidebar*/
+
+
 
 /*#region Main*/
 
@@ -93,50 +127,36 @@ body{
     top: 0;
 }
 
+.btn-upgrade{
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 0.75rem;
+    font-weight: bold;
+}
+
+.col-main h2{
+    color: white;
+}
+
+.col-main p{
+    color: #717378;
+}
+
+.col-main ul{
+    color: #717378;
+    font-weight: bold;
+}
+
+.col-main h3{
+    color: white;
+}
 /*#endregion*/
 
 /*#region Debug*/
 
-.debug .col-side{
-    background-color: red;
-    height: calc(100vh - 90px);
-}
 
-.debug .col-main{
-    background-color: aqua;
-    overflow: auto;
-    height: calc(100vh - 90px);
-}
-
-.debug .btn-upgrade{
-    height: 20px;
-    background-color: white;
-}
-
-.debug .text{
-    height:20px;
-    background-color: deeppink;
-    width: 100%;
-    margin-top: 1rem;
-}
-
-.debug .col-2{
-    margin-top: 1rem;
-    padding: 0 0.5rem;
-}
-
-.debug .card{
-    height: 150px;
-    width: 100%;
-    border: 1px solid black;
-}
-
-.debug .popular .card{
-    height: 150px;
-    width: 150px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
 
 .debug footer{
     height: 90px;
@@ -150,7 +170,21 @@ body{
 /* Queries */
 
 @media screen and (max-width: 1100px) {
+    .col-l-3{
+        width: calc(100% / 12 * 3);
+    }
+
     .row{
         flex-wrap: wrap;
     }
+}
+
+@media screen and (max-width: 700px) {
+    .col-m-6{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
 }
