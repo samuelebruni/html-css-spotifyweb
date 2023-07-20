@@ -94,6 +94,10 @@ body{
     margin-top: 4rem;
 }
 
+.mt-7{
+    margin-top: 7rem;
+}
+
 .ml-1{
     margin-left: 1rem;
 }
@@ -148,7 +152,24 @@ li:hover{
     color: #717378;
     font-weight: bold;
     font-size: 15px;
+    cursor: pointer;
 }
+
+.side-xl-text{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.col-side span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.text-side:hover{
+    color: white;
+}
+
 
 .col-side a{
     padding-left: 1rem;
@@ -167,19 +188,43 @@ li:hover{
 .container-playlist{
     height: 35px;
     width: 35px;
-    background-color: #a3a3a3;
+    background-color: #717378;
     margin-left: 2rem;
 }
 
 .col-side span{
-    color: #a3a3a3;
+    color: #717378;
     font-size: 15px;
 
 }
 
 .col-side ul{
-    color: #a3a3a3;
+    color: #717378;
     margin-left: 2rem;
+}
+
+.icon-side{
+    padding: 0.4rem;
+    border: 1px solid #717378;
+    border-radius: 50%;
+    line-height: 0.3rem;
+    margin-left: 0.6rem;
+    cursor: pointer;
+}
+
+.icon-xl-side{
+    padding: 0.2rem;
+    border: 1px solid #717378;
+    border-radius: 50%;
+    line-height: 0.3rem;
+    margin-left: 1.5rem;
+    background-color: #717378;
+    cursor: pointer;
+}
+
+.border-side{
+    border-bottom: 1px solid #717378;
+    margin: 0 1.5rem;
 }
 
 /*#region Main*/
