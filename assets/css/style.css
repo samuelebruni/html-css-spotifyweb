@@ -23,6 +23,10 @@ body{
     background-color: #141922;
 }
 
+.container-side{
+    height: 42%;
+}
+
 .vp{
     overflow: auto;
     z-index: 1;
