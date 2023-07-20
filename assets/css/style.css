@@ -20,9 +20,13 @@ body{
 
 .col-main{
     width:calc(100% - 230px);
-    overflow: auto;
-    height: calc(100vh - 90px);
     background-color: #141922;
+    height: calc(100% - 90px);
+}
+
+.vp{
+    overflow: auto;
+    z-index: 1;
 }
 
 .col-2{
@@ -240,11 +244,12 @@ li:hover{
 
 
 
-.debug footer{
+footer{
     height: 90px;
     background-color: #282828;
     width: 100%;
     position: sticky;
+    bottom: 0;
 }
 
 /*#endregion*/
