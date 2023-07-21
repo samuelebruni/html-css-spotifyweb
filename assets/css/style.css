@@ -534,6 +534,10 @@ i:hover{
     .resize{
         font-size: 10px;
     }
+
+    .col-xl{
+        width: 100%;
+    }
     
 }
 
