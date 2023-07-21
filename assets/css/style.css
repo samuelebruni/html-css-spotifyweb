@@ -136,6 +136,14 @@ body{
     margin-right: 1rem;
 }
 
+.ml{
+    margin-left: 1rem;
+}
+
+.wth{
+    width: 100%;
+}
+
 .gap1{
     gap: 1rem;
 }
@@ -427,6 +435,10 @@ i:hover{
     display: ne;
 }
 
+.img-foot img{
+    height: 45px;
+}
+
 
 /*#endregion*/
 
@@ -478,5 +490,13 @@ i:hover{
     .icon-side{
         margin-left: 1rem;
         margin-top: 2.2rem;
+    }
+
+    .img-foot img{
+        height: 25px;
+    }
+
+    .text-foot{
+        font-size: 12px;
     }
 }
