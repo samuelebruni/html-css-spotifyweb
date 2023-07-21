@@ -511,8 +511,34 @@ i:hover{
 
 @media screen and (max-width:467px) {
 
-    .right{
+    .invisible{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:424px) {
+
+    .left{
         flex-wrap: wrap;
     }
 
+    .text-foot span{
+        display: none;
+    }
+
+    .invisible-icon{
+        display:none;
+    }
+
+    .resize{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:398px) {
+    .container-s-foot{
+        display: none;
+    }
 }
