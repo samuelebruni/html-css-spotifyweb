@@ -23,9 +23,7 @@ body{
     background-color: #141922;
 }
 
-.container-side{
-    height: 42%;
-}
+
 
 .vp{
     overflow: auto;
@@ -43,12 +41,26 @@ body{
     flex-direction: column;
 }
 
+.grid{
+    display: grid;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
 
 .row{
     display: flex;
+}
+
+.row-foot{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.py{
+    padding: 0 0.2rem;
 }
 
 .row-side{
@@ -116,6 +128,10 @@ body{
     margin-bottom: 1rem;
 }
 
+.mr-2{
+    margin-right: 2rem;
+}
+
 .gap1{
     gap: 1rem;
 }
@@ -126,6 +142,10 @@ body{
 
 .gap{
     gap: 0.5rem;
+}
+
+.gap4{
+    gap: 4rem;
 }
 
 .unstyled{
@@ -311,6 +331,36 @@ footer{
     height: 90px;
     background-color: #282828;
     width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+
+.col-foot{
+    width: calc(100% / 12 * 4);
+}
+
+footer h4{
+    color: white;
+    font-weight: bold;
+}
+
+footer span{
+    color: #717378;
+    font-weight: bold;
+}
+
+.now-volume{
+    width:50px;
+    height: 8px;
+    background-color: #c1c1c1;
+    border-radius: 10px;
+}
+
+.tot-volume{
+    width:200px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #5a5a5a;
 }
 
 /*#endregion*/
@@ -352,5 +402,14 @@ footer{
 
     .col-main{
         width: calc(100% - 65px);
+    }
+
+    .border-side{
+        display: none;
+    }
+
+    .icon-side{
+        margin-left: 1rem;
+        margin-top: 2.2rem;
     }
 }
