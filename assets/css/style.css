@@ -508,3 +508,11 @@ i:hover{
         font-size: 12px;
     }
 }
+
+@media screen and (max-width:467px) {
+
+    .right{
+        flex-wrap: wrap;
+    }
+
+}
