@@ -546,3 +546,9 @@ i:hover{
         display: none;
     }
 }
+
+@media screen and (max-height:180px) {
+    .upgrade{
+        display: none;
+    }
+}
