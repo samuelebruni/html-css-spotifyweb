@@ -353,6 +353,7 @@ footer{
     width: 100%;
     position: sticky;
     bottom: 0;
+    z-index: 1000;
 }
 
 .col-foot{
@@ -547,8 +548,18 @@ i:hover{
     }
 }
 
-@media screen and (max-height:180px) {
-    .upgrade{
+@media screen and (max-width:362px){
+    .end{
         display: none;
+    }
+}
+
+@media screen and (max-height:180px) {
+    .btn-upgrade{
+        display: none;
+    }
+
+    .upgrade{
+        background-color: black;
     }
 }
