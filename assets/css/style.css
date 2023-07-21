@@ -343,6 +343,10 @@ footer{
     width: calc(100% / 12 * 4);
 }
 
+.col-s-foot{
+    width: 350
+}
+
 footer h4{
     color: white;
     font-weight: bold;
@@ -354,22 +358,75 @@ footer span{
 }
 
 .now-volume{
-    width:50px;
+    width:30%;
     height: 8px;
     background-color: #c1c1c1;
     border-radius: 10px;
 }
 
+.now-volume:hover{
+    background-color: #8aca2c;
+    .btn-player{
+        display: block;
+    }
+}
+
 .tot-volume{
-    width:150px;
+    width:100%;
     height: 8px;
     border-radius: 10px;
     background-color: #5a5a5a;
 }
 
-.bottom-player .tot-volume{
-    width: 350px;
+.container-foot{
+    width: 100%;
 }
+
+.container-s-foot{
+    width: 20%;
+}
+
+.bottom-player .tot-volume{
+    width: 100%;
+}
+
+.bottom-player .now-volume{
+    width: 20%;
+}
+
+ .btn-player{
+    display: none;
+    height: 150%;
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.effect-circle:hover{
+    transform: scale(1.25);
+}
+
+span:hover{
+    color: white;
+}
+
+i{
+    color: #717378;
+}
+
+i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.bottom-player .btn-player{
+    width: 10%;
+    height: 160%;
+    background-color: white;
+    border-radius: 50%;
+    display: ne;
+}
+
 
 /*#endregion*/
 
@@ -389,6 +446,8 @@ footer span{
     .col-m-6{
         width: 50%;
     }
+
+    
 }
 
 @media screen and (max-width: 600px) {
