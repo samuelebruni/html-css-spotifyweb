@@ -132,6 +132,10 @@ body{
     margin-right: 2rem;
 }
 
+.mr-1{
+    margin-right: 1rem;
+}
+
 .gap1{
     gap: 1rem;
 }
@@ -357,10 +361,14 @@ footer span{
 }
 
 .tot-volume{
-    width:200px;
+    width:150px;
     height: 8px;
     border-radius: 10px;
     background-color: #5a5a5a;
+}
+
+.bottom-player .tot-volume{
+    width: 350px;
 }
 
 /*#endregion*/
